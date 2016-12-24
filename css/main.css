@@ -773,7 +773,7 @@ button.booking:active {
     background-repeat: no-repeat;
     background-position: bottom, top;
 
-    padding: 75px 0;
+    padding: 85px 0;
     margin-bottom: 60px;
 }
 
@@ -934,10 +934,52 @@ figcaption span {
 }
 
 
+/* styles for panorams */
 
 
+.cover-panorams {
+    background-color: #81b3d2;
+    background-image: url(../img/bg-poster-mask.png), url(../img/milky_way_panorama_sedona.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom, center;
+
+    padding: 95px 0;
+    margin-bottom: 60px;
+}
+
+p.information {
+    position: relative;
+    text-transform: none;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+    text-indent: 40px; 
+    padding: 20px 120px 20px 160px;
+}
+
+p.information:before {
+    content: "";
+    position: absolute;
+    top: 26px;
+    left: 60px;
+    display: block;
+    width: 60px;
+    height: 60px;
+    background-image: url(../img/information-icon.png);
+    background-repeat: no-repeat;
+}
 
 
+figure.panorams {
+    padding: 0 40px;
+    margin-bottom: 80px;
+    text-transform: none;
+}
+
+figcaption.display  {
+    margin: 0 40px;
+    font-size: 16px;
+}
 
 
 
